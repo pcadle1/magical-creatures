@@ -1,0 +1,11 @@
+<h1>Creature Info</h1>
+<div>
+<h2>{{ creature.name }}</h2>
+<p>Abilities: {{ creature.ability }}</p>
+<p>Age: {{ creature.age }}</p>
+{{#if creature.ancient}}
+<p>{{creature.ancient}}</p>
+{{else}}
+<p>Not Ancient!</p>
+{{/if}}
+<</div>
